@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+
+</script>
+</head>
+
+
+<body>
+<form action="save.jsp" name="form1">
+<table border='1'>
+
+
+<tr>
+<td>Enter Unique Id</td>
+<td><input type="number" name="pid"></td>
+</tr>
+
+
+<tr>
+<td>Enter Product Name</td>
+<td><input type="text" name="pname"></td>
+</tr>
+
+
+<tr>
+<td>product Quantity</td>
+<td><input type="number" name="pquan"></td>
+</tr>
+
+<tr>
+<td>product Description</td>
+<td><input type="text" name="pdis" ></td>
+</tr>
+
+<tr>
+<td colspan=2>
+<input type="submit" onsubmit="return validate()">
+</td>
+</table>
+</form>
+</body>
+</html>
